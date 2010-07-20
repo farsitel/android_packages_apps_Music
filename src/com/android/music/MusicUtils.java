@@ -48,6 +48,7 @@ import android.provider.MediaStore;
 import android.provider.Settings;
 import android.text.TextUtils;
 import android.text.format.Time;
+import android.text.format.Jalali;
 import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
@@ -746,7 +747,7 @@ public class MusicUtils {
         timeArgs[3] = secs;
         timeArgs[4] = secs % 60;
 
-        return sFormatter.format(durationformat, timeArgs).toString();
+        return Jalali.persianDigitsIfPersian(sFormatter.format(durationformat, timeArgs).toString());
     }
     
     public static void shuffleAll(Context context, Cursor cursor) {
