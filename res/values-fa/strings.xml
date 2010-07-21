@@ -171,7 +171,7 @@
     <!-- Individual song context menu item -->
     <string name="ringtone_menu">استفاده به‌عنوان صدای زنگ</string>
     <!-- Menu item -->
-    <string name="ringtone_menu_short">استفاده به عنوان صدای زنگ</string>
+    <string name="ringtone_menu_short">به عنوان زنگ</string>
     <!-- Toast after setting a song as phone ringtone -->
     <string name="ringtone_set">\"<xliff:g id="name" example="Alarm Bell">%s</xliff:g>\" به عنوان صدای زنگ گوشی تنظیم شد.</string>
     <!-- Context menu item -->
@@ -287,5 +287,8 @@
     
     <!-- The string used to describe Music as a searchable item within system search settings. -->
     <string name="search_settings_description">هنرمندان، آلبوم‌ها و قطعه‌ها</string>
+    <!-- Text shown on widget when first loaded -->
+    <string name="widget_initial_text">ترانه‌ای انتخاب نشده است.</string>
+</resources>
 </resources>
 
