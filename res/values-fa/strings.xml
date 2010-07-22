@@ -159,15 +159,15 @@
     <!-- Default name of album that doesn't have a name in the metadata -->
     <string name="unknown_album_name">آلبوم نامشخص</string>
     <!-- Toast after turning shuffle on -->
-    <string name="shuffle_on_notif">حالت تصادفی روشن است.</string>
+    <string name="shuffle_on_notif">حالت تصادفی فعال شد.</string>
     <!-- Toast after turning shuffle off -->
-    <string name="shuffle_off_notif">حالت تصادفی خاموش است.</string>
+    <string name="shuffle_off_notif">حالت تصادفی غیرفعال شد.</string>
     <!-- Toast after turning repeat off -->
-    <string name="repeat_off_notif">تکرار خاموش است.</string>
+    <string name="repeat_off_notif">تکرار فعال شد.</string>
     <!-- Toast after turning single repeat on -->
-    <string name="repeat_current_notif">در حال تکرار ترانهٔ کنونی.</string>
+    <string name="repeat_current_notif">تکرار ترانهٔ کنونی فعال شد.</string>
     <!-- Toast after turning repeat all on -->
-    <string name="repeat_all_notif">در حال تکرار همهٔ ترانه‌ها.</string>
+    <string name="repeat_all_notif">تکرار همهٔ ترانه‌ها فعال شد</string>
     <!-- Individual song context menu item -->
     <string name="ringtone_menu">استفاده به‌عنوان صدای زنگ</string>
     <!-- Menu item -->
