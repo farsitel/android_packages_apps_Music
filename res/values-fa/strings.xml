@@ -20,23 +20,23 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
     <!-- used in various places to indicate there is one song for a given artist or album -->
-    <string name="onesong">۱ ترانه</string>
+    <string name="onesong">‏۱ ترانه</string>
     <!-- used in various places to indicate there is some number other than one songs for a given artist or album. -->
     <plurals name="Nsongs">
-        <item quantity="other"><xliff:g id="count">%d</xliff:g> ترانه</item>
+        <item quantity="other"><xliff:g id="count">‏%d</xliff:g> ترانه</item>
     </plurals>
 
     <!-- shows how many songs on the album are by the selected artist, out of how many total, if those two numbers are different -->
     <plurals name="Nsongscomp">
-        <item quantity="other"><xliff:g id="count_for_artist">%2$d</xliff:g> از <xliff:g id="total_count">%1$d</xliff:g> ترانه</item>
+        <item quantity="other"><xliff:g id="count_for_artist">‏%2$d</xliff:g> از <xliff:g id="total_count">%1$d</xliff:g> ترانه</item>
     </plurals>
 
     <!-- Used in artists list view, indicates how many albums exist for a given artist. -->
     <plurals name="Nalbums">
         <!-- number of albums is one -->
-        <item quantity="one">۱ آلبوم</item>
+        <item quantity="one">‏۱ آلبوم</item>
         <!-- number of albums is not equal to one -->
-        <item quantity="other"><xliff:g id="count">%d</xliff:g> آلبوم</item>
+        <item quantity="other"><xliff:g id="count">‏%d</xliff:g> آلبوم</item>
     </plurals>
     
     <!--
@@ -50,14 +50,14 @@
     -->
     <skip/>
     <!-- Do not translate. Duration format for duration < 1 hour -->
-    <string translatable="false" name="durationformatshort"><xliff:g id="format">%2$d:%5$02d</xliff:g></string>
+    <string translatable="false" name="durationformatshort"><xliff:g id="format">‏%2$d:%5$02d</xliff:g></string>
     <!-- Do not translate. Duration format for duration >= 1 hour -->
-    <string translatable="false" name="durationformatlong"><xliff:g id="format">%1$d:%3$02d:%5$02d</xliff:g></string>
+    <string translatable="false" name="durationformatlong"><xliff:g id="format">‏%1$d:%3$02d:%5$02d</xliff:g></string>
 
     <!-- Menu item that takes the user back to the top level screen of the music player -->
-    <string name="goto_start">کتابخانه</string>
+    <string name="goto_start">فهرست کلی</string>
     <!-- Menu item that takes the user to the "now playing" screen of the music player -->
-    <string name="goto_playback">پخش</string>
+    <string name="goto_playback">در حال پخش</string>
     <!-- Menu item that switches the music player in to party shuffle mode -->
     <string name="party_shuffle">حالت مهمانی</string>
     <!-- Menu item that switches the music player out of party shuffle mode -->
@@ -66,34 +66,34 @@
          The user will be prompted to confirm before deletion actually takes place -->
     <string name="delete_item">حذف</string>
     <!-- Menu item to play back all the songs in the currently showing list in shuffle mode -->
-    <string name="shuffle_all">تصادفی همه</string>
+    <string name="shuffle_all">پخش تصادفی همه</string>
     <!-- Menu item to play back all the songs in the currently showing list in list order -->
     <string name="play_all">پخش همه</string>
 
     <!-- Delete confirmation dialog when deleting an entire artist -->
-    <string name="delete_artist_desc">همهٔ ترانه‌های <xliff:g id="artist">%s</xliff:g> برای همیشه از کارت‌حافظه حذف خواهد شد.</string>
-
+    <string name="delete_artist_desc">تمام ترانه‌های <xliff:g id="artist">%s</xliff:g> برای همیشه از کارت‌حافظه حذف شود؟</string>
+    
     <!-- Delete confirmation dialog when deleting an entire album -->
-    <string name="delete_album_desc">تمام آلبوم \"<xliff:g id="album">%s</xliff:g>\" برای همیشه از کارت‌حافظه حذف خواهد شد.</string>
+    <string name="delete_album_desc">تمام آلبوم‌های \"<xliff:g id="album">%s</xliff:g>\" برای همیشه از کارت‌حافظه حذف شود؟</string>
 
     <!-- Delete confirmation dialog when deleting a single song -->
-    <string name="delete_song_desc">\"<xliff:g id="song">%s</xliff:g>\" برای همیشه از کارت‌حافظه حذف خواهد شد.</string>
+    <string name="delete_song_desc">\"<xliff:g id="song">‏%s</xliff:g>\" برای همیشه از کارت‌حافظه حذف شود؟</string>
 
     <!-- Delete confirmation dialog, confirmation button text -->
-    <string name="delete_confirm_button_text">تأیید</string>
+    <string name="delete_confirm_button_text">بله</string>
     <!-- Toast confirming that song(s) was/were deleted. -->
     <plurals name="NNNtracksdeleted">
         <!-- delete confirmation message for 1 song -->
-        <item quantity="one">۱ ترانه حذف شد.</item>
+        <item quantity="one">‏۱ ترانه حذف شد.</item>
         <!-- delete confirmation message for 0 or more than 1 songs -->
-        <item quantity="other"><xliff:g id="songs_to_delete">%d</xliff:g> ترانه حذف شد.</item>
+        <item quantity="other"><xliff:g id="songs_to_delete">‏%d</xliff:g> ترانه حذف شد.</item>
     </plurals>
 
     <!-- shown in dialog while the media scanner is starting up -->
     <string name="scanning">در حال جستجوی کارت‌حافظه\u2026</string>
 
     <!-- title of the "current playlist" screen when not in party shuffle mode -->
-    <string name="nowplaying_title">پخش</string>
+    <string name="nowplaying_title">در حال پخش</string>
     <!-- title of the "current playlist" screen when in party shuffle mode-->
     <string name="partyshuffle_title">حالت مهمانی</string>
     <!-- Artist screen title -->
@@ -113,17 +113,17 @@
     <!-- Videos screen title -->
     <string name="videos_title">ویدئوها</string>
     <!-- All media screen title -->
-    <string name="all_title">تمامی رسانه‌ها</string>
+    <string name="all_title">تمام ترانه‌ها</string>
     <!-- Category label on Library screen -->
     <string name="browse_menu">هنرمندان</string>
     <!-- Library screen, menu item -->
     <string name="search_title">جستجو</string>
     <!-- Title of screen when there are no songs, or if the SD card is busy -->
-    <string name="no_tracks_title">ترانه‌ای وجود ندارد</string>
+    <string name="no_tracks_title">ترانه‌ای وجود ندارد.</string>
     <!-- Title of screen when there are no videos, or if the SD card is busy -->
-    <string name="no_videos_title">ویدئویی وجود ندارد</string>
+    <string name="no_videos_title">ویدئویی وجود ندارد.</string>
     <!-- Title of screen when there are no playlists, or if the SD card is busy -->
-    <string name="no_playlists_title">گلچینی وجود ندارد</string>
+    <string name="no_playlists_title">گلچینی وجود ندارد.</string>
     <!-- Playlist context menu item to delete the selected playlist. -->
     <string name="delete_playlist_menu">حذف</string>
     <!-- Playlist context menu item to edit the selected playlist -->
@@ -135,29 +135,29 @@
     <!-- Transient popup message shown after renaming a playlist -->
     <string name="playlist_renamed_message">نام گلچین تغییر یافت.</string>
     <!-- The name of the pseudo-playlist that holds all the recently added files, shown in list view -->
-    <string name="recentlyadded">اخیرا اضافه‌شده</string>
+    <string name="recentlyadded">به تازگی اضافه‌شده</string>
     <!-- The name of the pseudo-playlist that holds all the recently added files, shown in title bar of songs list -->
-    <string name="recentlyadded_title">اخیرا اضافه‌شده</string>
+    <string name="recentlyadded_title">به تازگی اضافه‌شده</string>
     <!-- The name of the pseudo-playlist that holds all the podcasts, shown in list view -->
     <string name="podcasts_listitem">پادکست‌ها</string>
     <!-- The name of the pseudo-playlist that holds all the podcasts, shown in title bar of songs list -->
     <string name="podcasts_title">پادکست‌ها</string>
     <!-- Title of screen when no sd card is present -->
-    <string name="sdcard_missing_title">کارت‌حافظه‌ای وجود ندارد</string>
+    <string name="sdcard_missing_title">نبود کارت‌حافظه‌</string>
     <!-- label underneath icon used to indicate that no sd card is present -->
-    <string name="sdcard_missing_message">درون گوشی شما، کارت‌حافظه‌ای وجود ندارد.</string>
+    <string name="sdcard_missing_message">گوشی شما، کارت‌حافظه ندارد.</string>
     <!-- label underneath icon used to indicate that the sd card is present, but currently unavailable -->
-    <string name="sdcard_busy_title">کارت‌حافظه در دسترس نیست</string>
+    <string name="sdcard_busy_title">کارت‌حافظه در دسترس نیست.</string>
     <!-- label underneath icon used to indicate sd card is mounted to your computer via USB -->
-    <string name="sdcard_busy_message">متاسفانه، کارت‌حافظهٔ شما مشغول است.</string>
+    <string name="sdcard_busy_message">کارت‌حافظه مشغول است.</string>
     <!-- Title of screen when there was an error accessing the sd card -->
-    <string name="sdcard_error_title">خطای کارت‌حافظه</string>
+    <string name="sdcard_error_title">خطا در کارت‌حافظه</string>
     <!-- label underneath icon used to indicate there was an error accessing the sd card -->
-    <string name="sdcard_error_message">مشکلی در کارت‌حافظهٔ شما پیش آمده است.</string>
+    <string name="sdcard_error_message">مشکلی در کارت‌حافظه پیش آمده است.</string>
     <!-- Default name of artist that doesn't have a name in the metadata -->
-    <string name="unknown_artist_name">هنرمند نامشخص</string>
+    <string name="unknown_artist_name">هنرمند ناشناس</string>
     <!-- Default name of album that doesn't have a name in the metadata -->
-    <string name="unknown_album_name">آلبوم نامشخص</string>
+    <string name="unknown_album_name">آلبوم ناشناس</string>
     <!-- Toast after turning shuffle on -->
     <string name="shuffle_on_notif">حالت تصادفی فعال شد.</string>
     <!-- Toast after turning shuffle off -->
@@ -167,13 +167,13 @@
     <!-- Toast after turning single repeat on -->
     <string name="repeat_current_notif">تکرار ترانهٔ کنونی فعال شد.</string>
     <!-- Toast after turning repeat all on -->
-    <string name="repeat_all_notif">تکرار همهٔ ترانه‌ها فعال شد</string>
+    <string name="repeat_all_notif">تکرار همهٔ ترانه‌ها فعال شد.</string>
     <!-- Individual song context menu item -->
-    <string name="ringtone_menu">استفاده به‌عنوان صدای زنگ</string>
+    <string name="ringtone_menu">استفاده به‌عنوان زنگ گوشی</string>
     <!-- Menu item -->
     <string name="ringtone_menu_short">به عنوان زنگ</string>
     <!-- Toast after setting a song as phone ringtone -->
-    <string name="ringtone_set">\"<xliff:g id="name" example="Alarm Bell">%s</xliff:g>\" به عنوان صدای زنگ گوشی تنظیم شد.</string>
+    <string name="ringtone_set">‏\"<xliff:g id="name" example="Alarm Bell">%s</xliff:g>\" به عنوان زنگ گوشی تنظیم شد.</string>
     <!-- Context menu item -->
     <string name="play_selection">پخش</string>
     <!-- Context menu item -->
@@ -187,37 +187,37 @@
     <!-- Toasts after adding song(s) to playlists -->
     <plurals name="NNNtrackstoplaylist">
         <!-- message shown when one song was added -->
-        <item quantity="one">یک ترانه به گلچین اضافه شد.</item>
+        <item quantity="one">‏۱ ترانه به گلچین اضافه شد.</item>
         <!-- message shown when zero or more than one song was added -->
-        <item quantity="other"><xliff:g id="number" example="27">%d</xliff:g> ترانه به گلچین اضافه شد.</item>
+        <item quantity="other"><xliff:g id="number" example="27">‏%d</xliff:g> ترانه به گلچین اضافه شد.</item>
     </plurals>
     <!-- Toast after selecting an empty playlist -->
     <string name="emptyplaylist">گلچین انتخاب‌شده خالی است.</string>
     <!-- Button name when saving a playlist -->
-    <string name="create_playlist_create_text">ذخیره</string>
+    <string name="create_playlist_create_text">ذخیره کردن</string>
     <!-- Button name when saving a playlist and the new playlist will overwrite an existing one -->
-    <string name="create_playlist_overwrite_text">رونویسی</string>
+    <string name="create_playlist_overwrite_text">جایگزینی</string>
     <!-- Dialog box title -->
     <string name="service_start_error_title">مشکل در پخش</string>
     <!-- Dialog box message -->
-    <string name="service_start_error_msg">متاسفانه، این ترانه را نمی‌توان پخش کرد.</string>
+    <string name="service_start_error_msg">این ترانه را نمی‌توان پخش کرد.</string>
     <!-- Dialog box button -->
-    <string name="service_start_error_button">تأیید</string>
+    <string name="service_start_error_button">بازگشت</string>
     <!-- Time span edit options that appear when editing system playlist "Recently added" -->
     <!-- Used to indicate the number of weeks the "recently added" playlist covers in a selector widget -->
     <string-array name="weeklist">
-        <item>"۱ هفته"</item>
-        <item>"۲ هفته"</item>
-        <item>"۳ هفته"</item>
-        <item>"۴ هفته"</item>
-        <item>"۵ هفته"</item>
-        <item>"۶ هفته"</item>
-        <item>"۷ هفته"</item>
-        <item>"۸ هفته"</item>
-        <item>"۹ هفته"</item>
-        <item>"۱۰ هفته"</item>
-        <item>"۱۱ هفته"</item>
-        <item>"۱۲ هفته"</item>
+        <item>‏«۱ هفته»</item>
+        <item>‏«۲ هفته»</item>
+        <item>‏«۳ هفته»</item>
+        <item>‏«۴ هفته»</item>
+        <item>‏«۵ هفته»</item>
+        <item>‏«۶ هفته»</item>
+        <item>‏«۷ هفته»</item>
+        <item>‏«۸ هفته»</item>
+        <item>‏«۹ هفته»</item>
+        <item>‏«۱۰ هفته»</item>
+        <item>‏«۱۱ هفته»</item>
+        <item>‏«۱۲ هفته»</item>
     </string-array>
     <!-- Button name in time span picker -->
     <string name="weekpicker_set">انجام شد</string>
@@ -229,9 +229,9 @@
     <color name="expanding_child_background">#ff404040</color>
 
     <!-- menu item to save the current list as a new playlist -->
-    <string name="save_as_playlist">ذخیره به‌عنوان گلچین</string>
+    <string name="save_as_playlist">ذخیره به عنوان گلچین</string>
     <!-- menu item to clear the current playlist -->
-    <string name="clear_playlist">خالی‌کردن گلچین</string>
+    <string name="clear_playlist">خالی کردن گلچین</string>
 
     <!-- Activity label. This might show up in the activity-picker -->
     <string name="musicbrowserlabel">موسیقی</string>
@@ -245,10 +245,10 @@
     <string name="mediapickerlabel">موسیقی</string>
 
     <!-- Shown as a transient message whenever a file fails to play -->
-    <string name="playback_failed">متاسفانه، پخش‌کنندهٔ موسیقی از این نوع پروندهٔ صوتی پشتیبانی نمی‌کند.</string>
+    <string name="playback_failed">پخش‌کنندهٔ موسیقی شما این نوع پروندهٔ صوتی  را پشتیبانی نمی‌کند.</string>
 
     <!-- Text for the "cancel" button in the "delete" and "create playlist" confirmation dialogs -->
-    <string name="cancel">لغو</string>
+    <string name="cancel">خیر</string>
 
     <!-- context menu item to remove the selected item from the playlist -->
     <string name="remove_from_playlist">حذف از گلچین</string>
@@ -257,7 +257,7 @@
     <string name="streamloadingtext">در حال اتصال به <xliff:g id="host">%s</xliff:g></string>
 
     <!-- title of contextual music search menu -->
-    <string name="mediasearch">جستجو برای <xliff:g id="term" example="Beethoven">%s</xliff:g> با استفاده از:</string>
+    <string name="mediasearch">جستجوی «<xliff:g id="term" example="Beethoven">%s</xliff:g>» در:</string>
 
     <!-- Shown in the title bar while the list of artists is being retrieved in the background -->
     <string name="working_artists">هنرمندان\u2026</string>
@@ -269,9 +269,9 @@
     <string name="working_playlists">گلچین‌ها\u2026</string>
     
     <!-- Shown in the music picker while loading the music database. -->
-    <string name="loading">در حال بار کردن</string>
+    <string name="loading">در حال آماده‌سازی</string>
     <!-- Menu in music picker to sort the list by track/song name. -->
-    <string name="sort_by_track">شیارها</string>
+    <string name="sort_by_track">قطعه‌ها</string>
     <!-- Menu in music picker to sort the list by album name. -->
     <string name="sort_by_album">آلبوم‌ها</string>
     <!-- Menu in music picker to sort the list by artist name. -->
@@ -287,7 +287,10 @@
     
     <!-- The string used to describe Music as a searchable item within system search settings. -->
     <string name="search_settings_description">هنرمندان، آلبوم‌ها و قطعه‌ها</string>
-    <!-- Text shown on widget when first loaded -->
-    <string name="widget_initial_text">ترانه‌ای انتخاب نشده است.</string>
-</resources>
 
+    <!-- Shown in the search box as a hint -->
+    <string name="search_hint">جستجوی موسیقی</string>
+
+    <!-- Text shown on widget when first loaded -->
+    <string name="widget_initial_text">برای انتخاب ترانه، صفحه را لمس کنید.</string>
+</resources>
