@@ -747,7 +747,7 @@ public class MusicUtils {
         timeArgs[3] = secs;
         timeArgs[4] = secs % 60;
 
-        return Jalali.persianDigitsIfPersian(sFormatter.format(durationformat, timeArgs).toString());
+        return sFormatter.format(durationformat, timeArgs).toString();
     }
     
     public static void shuffleAll(Context context, Cursor cursor) {
