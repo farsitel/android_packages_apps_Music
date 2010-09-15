@@ -23,12 +23,12 @@
     <string name="onesong">‏۱ ترانه</string>
     <!-- used in various places to indicate there is some number other than one songs for a given artist or album. -->
     <plurals name="Nsongs">
-        <item quantity="other"><xliff:g id="count">‏%d</xliff:g> ترانه</item>
+        <item quantity="other"><xliff:g id="count">‏%Ld</xliff:g> ترانه</item>
     </plurals>
 
     <!-- shows how many songs on the album are by the selected artist, out of how many total, if those two numbers are different -->
     <plurals name="Nsongscomp">
-        <item quantity="other"><xliff:g id="count_for_artist">‏%2$d</xliff:g> از <xliff:g id="total_count">%1$d</xliff:g> ترانه</item>
+        <item quantity="other"><xliff:g id="count_for_artist">‏%2$Ld</xliff:g> از <xliff:g id="total_count">%1$Ld</xliff:g> ترانه</item>
     </plurals>
 
     <!-- Used in artists list view, indicates how many albums exist for a given artist. -->
@@ -36,7 +36,7 @@
         <!-- number of albums is one -->
         <item quantity="one">‏۱ آلبوم</item>
         <!-- number of albums is not equal to one -->
-        <item quantity="other"><xliff:g id="count">‏%d</xliff:g> آلبوم</item>
+        <item quantity="other"><xliff:g id="count">‏%Ld</xliff:g> آلبوم</item>
     </plurals>
     
     <!--
@@ -50,9 +50,9 @@
     -->
     <skip/>
     <!-- Do not translate. Duration format for duration < 1 hour -->
-    <string translatable="false" name="durationformatshort"><xliff:g id="format">‏%2$d:%5$02d</xliff:g></string>
+    <string name="durationformatshort"><xliff:g id="format">‏%2$Ld:%5$L02d</xliff:g></string>
     <!-- Do not translate. Duration format for duration >= 1 hour -->
-    <string translatable="false" name="durationformatlong"><xliff:g id="format">‏%1$d:%3$02d:%5$02d</xliff:g></string>
+    <string name="durationformatlong"><xliff:g id="format">‏%1$Ld:%3$L02d:%5$L02d</xliff:g></string>
 
     <!-- Menu item that takes the user back to the top level screen of the music player -->
     <string name="goto_start">فهرست کلی</string>
@@ -74,10 +74,10 @@
     <string name="delete_artist_desc">تمام ترانه‌های <xliff:g id="artist">%s</xliff:g> برای همیشه از کارت‌حافظه حذف شود؟</string>
     
     <!-- Delete confirmation dialog when deleting an entire album -->
-    <string name="delete_album_desc">تمام آلبوم‌های \"<xliff:g id="album">%s</xliff:g>\" برای همیشه از کارت‌حافظه حذف شود؟</string>
+    <string name="delete_album_desc">تمام آلبوم‌های «<xliff:g id="album">%s</xliff:g>» برای همیشه از کارت‌حافظه حذف شود؟</string>
 
     <!-- Delete confirmation dialog when deleting a single song -->
-    <string name="delete_song_desc">\"<xliff:g id="song">‏%s</xliff:g>\" برای همیشه از کارت‌حافظه حذف شود؟</string>
+    <string name="delete_song_desc">«<xliff:g id="song">‏%s</xliff:g>» برای همیشه از کارت‌حافظه حذف شود؟</string>
 
     <!-- Delete confirmation dialog, confirmation button text -->
     <string name="delete_confirm_button_text">بله</string>
@@ -86,7 +86,7 @@
         <!-- delete confirmation message for 1 song -->
         <item quantity="one">‏۱ ترانه حذف شد.</item>
         <!-- delete confirmation message for 0 or more than 1 songs -->
-        <item quantity="other"><xliff:g id="songs_to_delete">‏%d</xliff:g> ترانه حذف شد.</item>
+        <item quantity="other"><xliff:g id="songs_to_delete">‏%Ld</xliff:g> ترانه حذف شد.</item>
     </plurals>
 
     <!-- shown in dialog while the media scanner is starting up -->
@@ -173,7 +173,7 @@
     <!-- Menu item -->
     <string name="ringtone_menu_short">به عنوان زنگ</string>
     <!-- Toast after setting a song as phone ringtone -->
-    <string name="ringtone_set">‏\"<xliff:g id="name" example="Alarm Bell">%s</xliff:g>\" به عنوان زنگ گوشی تنظیم شد.</string>
+    <string name="ringtone_set">‏«<xliff:g id="name" example="Alarm Bell">%s</xliff:g>» به عنوان زنگ گوشی تنظیم شد.</string>
     <!-- Context menu item -->
     <string name="play_selection">پخش</string>
     <!-- Context menu item -->
@@ -183,13 +183,13 @@
     <!-- Context menu item -->
     <string name="new_playlist">جدید</string>
     <!-- Template for newly created playlist name -->
-    <string name="new_playlist_name_template">گلچین جدید <xliff:g id="number">%d</xliff:g></string>
+    <string name="new_playlist_name_template">گلچین جدید <xliff:g id="number">%Ld</xliff:g></string>
     <!-- Toasts after adding song(s) to playlists -->
     <plurals name="NNNtrackstoplaylist">
         <!-- message shown when one song was added -->
         <item quantity="one">‏۱ ترانه به گلچین اضافه شد.</item>
         <!-- message shown when zero or more than one song was added -->
-        <item quantity="other"><xliff:g id="number" example="27">‏%d</xliff:g> ترانه به گلچین اضافه شد.</item>
+        <item quantity="other"><xliff:g id="number" example="27">‏%Ld</xliff:g> ترانه به گلچین اضافه شد.</item>
     </plurals>
     <!-- Toast after selecting an empty playlist -->
     <string name="emptyplaylist">گلچین انتخاب‌شده خالی است.</string>
@@ -280,7 +280,7 @@
     <string name="music_picker_title">انتخاب قطعه موسیقی</string>
 
     <!-- Title for track number in music gadget -->
-    <string name="gadget_track">قطعه <xliff:g id="track_number">%d</xliff:g></string>
+    <string name="gadget_track">قطعهٔ <xliff:g id="track_number">%Ld</xliff:g></string>
 
     <!-- Toast after streamStarter activity receives PLAYBACK_COMPLETE in case of an error -->
     <string name="fail_to_start_stream">پخش جریان درخواست‌شده ناموفق بود.</string>
