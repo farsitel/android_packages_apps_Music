@@ -28,7 +28,7 @@
 
     <!-- shows how many songs on the album are by the selected artist, out of how many total, if those two numbers are different -->
     <plurals name="Nsongscomp">
-        <item quantity="other"><xliff:g id="count_for_artist">‏%2$Ld</xliff:g> از <xliff:g id="total_count">%1$Ld</xliff:g> ترانه</item>
+        <item quantity="other"><xliff:g id="count_for_artist">‏%2$Ld</xliff:g> ترانه از <xliff:g id="total_count">%1$Ld</xliff:g> ترانه</item>
     </plurals>
 
     <!-- Used in artists list view, indicates how many albums exist for a given artist. -->
@@ -71,13 +71,13 @@
     <string name="play_all">پخش همه</string>
 
     <!-- Delete confirmation dialog when deleting an entire artist -->
-    <string name="delete_artist_desc">تمام ترانه‌های <xliff:g id="artist">%s</xliff:g> برای همیشه از کارت‌حافظه حذف شود؟</string>
+    <string name="delete_artist_desc">تمام ترانه‌های <xliff:g id="artist">%s</xliff:g> برای همیشه از کارت حافظه حذف شود؟</string>
     
     <!-- Delete confirmation dialog when deleting an entire album -->
-    <string name="delete_album_desc">تمام آلبوم‌های «<xliff:g id="album">%s</xliff:g>» برای همیشه از کارت‌حافظه حذف شود؟</string>
+    <string name="delete_album_desc">تمام آلبوم‌های «<xliff:g id="album">%s</xliff:g>» برای همیشه از کارت حافظه حذف شود؟</string>
 
     <!-- Delete confirmation dialog when deleting a single song -->
-    <string name="delete_song_desc">«<xliff:g id="song">‏%s</xliff:g>» برای همیشه از کارت‌حافظه حذف شود؟</string>
+    <string name="delete_song_desc">«<xliff:g id="song">‏%s</xliff:g>» برای همیشه از کارت حافظه حذف شود؟</string>
 
     <!-- Delete confirmation dialog, confirmation button text -->
     <string name="delete_confirm_button_text">بله</string>
@@ -90,7 +90,7 @@
     </plurals>
 
     <!-- shown in dialog while the media scanner is starting up -->
-    <string name="scanning">در حال جستجوی کارت‌حافظه\u2026</string>
+    <string name="scanning">در حال جستجوی کارت حافظه\u2026</string>
 
     <!-- title of the "current playlist" screen when not in party shuffle mode -->
     <string name="nowplaying_title">در حال پخش</string>
@@ -129,11 +129,11 @@
     <!-- Playlist context menu item to edit the selected playlist -->
     <string name="edit_playlist_menu">ویرایش</string>
     <!-- Playlist context menu item to rename the selected playlist-->
-    <string name="rename_playlist_menu">تغییرنام</string>
+    <string name="rename_playlist_menu">تغییر نام</string>
     <!-- Transient popup message shown after deleting a playlist -->
     <string name="playlist_deleted_message">گلچین حذف شد.</string>
     <!-- Transient popup message shown after renaming a playlist -->
-    <string name="playlist_renamed_message">نام گلچین تغییر یافت.</string>
+    <string name="playlist_renamed_message">نام گلچین تغییر کرد.</string>
     <!-- The name of the pseudo-playlist that holds all the recently added files, shown in list view -->
     <string name="recentlyadded">به تازگی اضافه‌شده</string>
     <!-- The name of the pseudo-playlist that holds all the recently added files, shown in title bar of songs list -->
@@ -143,17 +143,17 @@
     <!-- The name of the pseudo-playlist that holds all the podcasts, shown in title bar of songs list -->
     <string name="podcasts_title">پادکست‌ها</string>
     <!-- Title of screen when no sd card is present -->
-    <string name="sdcard_missing_title">نبود کارت‌حافظه‌</string>
+    <string name="sdcard_missing_title">نبود کارت حافظه‌</string>
     <!-- label underneath icon used to indicate that no sd card is present -->
-    <string name="sdcard_missing_message">گوشی شما، کارت‌حافظه ندارد.</string>
+    <string name="sdcard_missing_message">گوشی شما، کارت حافظه ندارد.</string>
     <!-- label underneath icon used to indicate that the sd card is present, but currently unavailable -->
-    <string name="sdcard_busy_title">کارت‌حافظه در دسترس نیست.</string>
+    <string name="sdcard_busy_title">کارت حافظه در دسترس نیست.</string>
     <!-- label underneath icon used to indicate sd card is mounted to your computer via USB -->
-    <string name="sdcard_busy_message">کارت‌حافظه مشغول است.</string>
+    <string name="sdcard_busy_message">کارت حافظه مشغول است.</string>
     <!-- Title of screen when there was an error accessing the sd card -->
-    <string name="sdcard_error_title">خطا در کارت‌حافظه</string>
+    <string name="sdcard_error_title">خطا در کارت حافظه</string>
     <!-- label underneath icon used to indicate there was an error accessing the sd card -->
-    <string name="sdcard_error_message">مشکلی در کارت‌حافظه پیش آمده است.</string>
+    <string name="sdcard_error_message">مشکلی در کارت حافظه پیش آمده است.</string>
     <!-- Default name of artist that doesn't have a name in the metadata -->
     <string name="unknown_artist_name">هنرمند ناشناس</string>
     <!-- Default name of album that doesn't have a name in the metadata -->
