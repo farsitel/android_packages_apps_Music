@@ -114,6 +114,9 @@ public class TouchInterceptor extends ListView {
                     View dragger = item.findViewById(R.id.icon);
                     Rect r = mTempRect;
                     dragger.getDrawingRect(r);
+                    if (mRTL) {
+                        x = getWidth() - x;
+                    }
                     // The dragger icon itself is quite small, so pretend the touch area is bigger
                     if (x < r.right * 2) {
                         item.setDrawingCacheEnabled(true);
